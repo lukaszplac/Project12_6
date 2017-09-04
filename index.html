@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Random quote generator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<main class="jumbotron-fluid my-jumbo">
+		<div class="container text-center">
+			<header>
+		    	<h1>Country search engine</h1>
+		    </header>
+		    <section>
+				<button class="btn btn-success" id="search">Search a country</button>
+				<input id="country-name" type="text" />
+			</section>
+			<section>
+				<h2>List of countries</h2>
+				<table class="table table-bordered my-table">
+				  <thead>
+				    <tr>
+				      <th class="text-center">Country</th>
+				      <th class="text-center">Capital city</th>
+				    </tr>
+				  </thead>
+				  <tbody id="countries">
+				    <tr>
+				      <td>-</td>
+				      <td>-</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</section>
+		</div>
+	</main>
+
+  	<script
+  src="js/script.js"></script>
+</body>
+</html>
